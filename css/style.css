@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	text-decoration: none;
+}
+html {height: 100%;}
+
+a {
+	font-family: "Titillium" , sans-serif;
+	color: black;
+}
+a:hover{
+	font-family: "Titillium" , sans-serif;
+	color: #3BC0E5;
+}
+
+body {
+	width: 100%;
+	float: left;
+	height: 100%;  
+	background: url(../img/head.jpg) no-repeat;/*задний фон*/ 
+	background-size: contain;
+
+}
+
+header, footer { 
+	
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	height: 80px;
+}	
+
+
+header {
+	margin-top: 30px;
+	opacity: 0.7; /* Прозразность фона */
+	background-color: white;
+	border-bottom: 2px solid silver;
+	position: fixed;
+}
+
+footer {
+	border-top: 2px solid silver;
+	opacity: 0.8; /* Прозразность фона */
+	background-color: white;
+}
+
+#logo {
+	display: block;
+	font-size: 3em;
+	float: left;
+	margin-top: 10px;
+	font-style: italic;
+	font-weight:bold;
+	margin-left:30px;
+	
+}
+ 
+
+#about_us {
+	display: block;
+	font-size: 1.5em;
+	float: left; 
+	margin-left: 150px; 
+	margin-top: 25px;
+	font-weight: bold;
+}
+#about_us:hover {
+	display: block;
+	font-size: 2em;
+	float: left; 
+	margin-left: 100px; 
+	margin-top: 20px;
+	font-weight: bold;
+	  transition: 3s linear 0.5s;
+}
+
+#social {
+	float: right;
+	margin-left: ;
+	height: 40px;
+	width:200px;
+	margin-top:20px;
+	word-spacing:30px;
+	text-align:center;
+
+}
+
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	float: left;
+
+}
+#profile_photo img {
+	width: 400px;
+	height: 400px;
+}
+#profile_photo {
+	box-sizing: border-box;
+	border: none;
+	border-radius: 250px;
+	overflow: hidden;
+	width: 380px;
+	height: 380px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+	margin-top: 200px;
+	margin-left: 100px;
+	position:fixed;
+}
+
+
+
+
+.wrapper .inf {
+	border: 2px solid white; 
+	width: 30%;
+	float: left;
+	margin-left:60%;
+	margin-top: 300px;
+	padding-left: 30px;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 10px;
+	line-height: 200%;
+	
+}
